@@ -10,7 +10,10 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: ['@tarojs/plugin-html'],
+  plugins: [
+    '@tarojs/plugin-html',
+    '@yaya/taro-plugins/app-config.plugin'
+  ],
   defineConstants: {
   },
   copy: {
