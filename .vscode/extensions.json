@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "hollowtree.vue-snippets",
     "octref.vetur",
     "dbaeumer.vscode-eslint"
   ]
