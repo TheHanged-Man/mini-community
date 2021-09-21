@@ -1,5 +1,13 @@
 <template>
   <view class="index">
+    <!-- <nut-swiper :init-page="0" :pagination-visible="true" pagination-color="#426543" auto-play="3000"> -->
+      <!-- <nut-swiper-item>
+        <img src="http://flagnet.imu.edu.cn/Upload/Default1.jpg" alt="" />
+      </nut-swiper-item>
+      <nut-swiper-item>
+        <img src="http://flagnet.imu.edu.cn/Upload/20201127/big_202011271558012696.jpg" alt="" />
+      </nut-swiper-item> -->
+    <!-- </nut-swiper> -->
     <view>
       <img src="" alt="">
     </view>

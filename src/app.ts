@@ -1,14 +1,19 @@
 import { createApp } from 'vue'
-import { Button, Toast } from '@nutui/nutui-taro';
-import '@nutui/nutui-taro/dist/style.css';
+import NutUI from '@nutui/nutui-taro'
+import '@nutui/nutui-taro/dist/styles/themes/default.scss';
+// import { createUI } from 'taro-ui-vue3'
+// import 'taro-ui-vue3/dist/style/index.scss'
 
 import './app.scss'
 
-const App = createApp({
+const app = createApp({
   onShow (options) {},
   // 入口组件不需要实现 render 方法，即使实现了也会被 taro 所覆盖
 })
 
-App.use(Button).use(Toast)
+app.use(NutUI)
 
-export default App
+// const tuv3 = createUI()
+// App.use(tuv3)
+
+export default app

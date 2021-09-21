@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'mini-community',
   date: '2021-9-17',
@@ -14,6 +16,11 @@ const config = {
     '@tarojs/plugin-html',
     '@yaya/taro-plugins/app-config.plugin'
   ],
+  alias: {
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/routes': path.resolve(__dirname, '..', 'src/routes'),
+    '@/pages': path.resolve(__dirname, '..', 'src/pages'),
+  },
   defineConstants: {
   },
   copy: {

@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "plugin:taro/all"
-  ]
+  "extends": ["taro/vue3"]
 }
